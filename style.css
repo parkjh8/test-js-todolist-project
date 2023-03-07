@@ -1,0 +1,24 @@
+.body{
+    margin:0px;
+}
+.container{
+    background-color: pink;
+    height: 100vh;   
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+.content{
+    display: flex;
+    border-bottom: 2px solid black;
+}
+.content div{
+    padding: 10px;
+    border:1px solid white;
+}
+#text{
+    display: flex;
+    justify-content: space-between;
+    border:1px solid black;
+}
+.content div{
+    cursor:pointer;
+}
